@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7087E39F-5DDF-4108-831C-2EBD8DEC3804}"
 EndProject
@@ -38,6 +38,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datory", "src\Datory\Datory.csproj", "{942CF90A-5830-4040-8820-77A386372E2A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datory.Tests", "tests\Datory.Tests\Datory.Tests.csproj", "{295E32F3-E721-4EC8-9BE3-7BE69FA2DCC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{A69B8D69-7ADD-456B-AAC6-5329A03A71EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "censor", "sscms-plugins\censor\censor.csproj", "{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,10 @@ Global
 		{295E32F3-E721-4EC8-9BE3-7BE69FA2DCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295E32F3-E721-4EC8-9BE3-7BE69FA2DCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295E32F3-E721-4EC8-9BE3-7BE69FA2DCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +108,7 @@ Global
 		{CCE9B25D-0537-48B4-98C8-F8F119631ABC} = {7087E39F-5DDF-4108-831C-2EBD8DEC3804}
 		{942CF90A-5830-4040-8820-77A386372E2A} = {273FDE01-B4F1-4A5F-8E08-23D071ED7206}
 		{295E32F3-E721-4EC8-9BE3-7BE69FA2DCC0} = {7087E39F-5DDF-4108-831C-2EBD8DEC3804}
+		{5D6D7C74-E951-4A82-B2AA-35A82DBAF49C} = {A69B8D69-7ADD-456B-AAC6-5329A03A71EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16E9F7DE-60E7-4FB3-A3DB-38729FE5A04F}

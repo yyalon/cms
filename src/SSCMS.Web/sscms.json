@@ -1,0 +1,18 @@
+﻿{
+  "IsProtectData": false,
+  "IsSafeMode": false,
+  "SecurityKey": "99c87526115a9bab895319716c68494fbd196e2c8be848a5",
+  "Database": {
+    "Type": "MySql",
+    "ConnectionString": "Server=127.0.0.1;Uid=root;Pwd=1203;Database=sscms;SslMode=Preferred;CharSet=utf8;"
+  },
+  "Redis": {
+    "ConnectionString": ""
+  },
+  "IsDisablePlugins": false,
+  "AdminRestriction": {
+    "Host": "",
+    "AllowList": [],
+    "BlockList": []
+  }
+}
